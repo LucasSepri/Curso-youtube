@@ -212,6 +212,11 @@ footer ul li.ellipsis {
     margin-left: 5px;
   }
 }
+@media (max-width: 377px) {
+  .breadcrumb {
+    font-size: 12px;
+  }
+}
 .produtos-compra figure {
   margin: 0;
 }

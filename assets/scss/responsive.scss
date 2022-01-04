@@ -7,10 +7,6 @@
     #banners-promocionais{
         display: none;
     }
-
-    // .produtos-container img{
-    //     width: 100%;
-    // }
 }
 
 @media (max-width: 575px){
@@ -52,5 +48,12 @@
                 margin-left: 5px;
             }
         }
+    }
+}
+
+
+@media (max-width: 377px) {
+    .breadcrumb{
+        font-size: 12px;
     }
 }
