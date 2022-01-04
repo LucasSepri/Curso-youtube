@@ -10561,6 +10561,18 @@ a.text-dark:focus, a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+.breadcrumb {
+  background: initial;
+  margin: 40px 0;
+  padding: 0;
+}
+.breadcrumb a {
+  color: #FF0F9A;
+}
+.breadcrumb a:hover {
+  color: #343A40;
+}
+
 body {
   color: #343A40;
 }
