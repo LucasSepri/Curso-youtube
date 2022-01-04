@@ -168,6 +168,50 @@ footer ul li.ellipsis {
   white-space: nowrap;
 }
 
+@media (max-width: 767px) {
+  header form {
+    margin: 28px 0;
+  }
+
+  #banners-promocionais {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .produtos-container img {
+    width: 100%;
+  }
+}
+@media (max-width: 409px) {
+  .banner-promocionais-statico {
+    margin: 10px;
+  }
+  .banner-promocionais-statico .banners-promocionais-statico-12x,
+.banner-promocionais-statico .banners-promocionais-statico-todo-br {
+    padding: 10px;
+  }
+  .banner-promocionais-statico .banners-promocionais-statico-12x svg,
+.banner-promocionais-statico .banners-promocionais-statico-todo-br svg {
+    margin-left: 5px;
+  }
+}
+@media (max-width: 991px) {
+  header ul li {
+    margin: 10px 0;
+  }
+
+  .banner-promocionais-statico {
+    margin: 10px;
+  }
+  .banner-promocionais-statico .banners-promocionais-statico-12x,
+.banner-promocionais-statico .banners-promocionais-statico-todo-br {
+    padding: 10px;
+  }
+  .banner-promocionais-statico .banners-promocionais-statico-12x svg,
+.banner-promocionais-statico .banners-promocionais-statico-todo-br svg {
+    margin-left: 5px;
+  }
+}
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -10531,6 +10575,7 @@ h1 {
 
 h1, h2, h3, h4, h5 {
   font-weight: bold;
+  margin: 10px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
